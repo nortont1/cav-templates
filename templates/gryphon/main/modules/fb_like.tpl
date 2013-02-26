@@ -1,0 +1,1 @@
+<div class="fb-like-box" data-href="http://www.facebook.com/CavalierDaily" data-width="300" data-height="600" data-show-faces="true" data-stream="true" data-header="true"></div>

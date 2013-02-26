@@ -1,0 +1,197 @@
+.abstract {
+	.clearfix();
+
+	.by-line {
+		.arial-stack;
+		font-size: 11px;
+		margin-bottom: 5px;
+
+		.icon-comment {
+			font-size: 13px;
+			color: @_uvaorange;
+			position: relative;
+			top: 2px;
+		}
+	}
+
+	.icon-chevron-right {
+		font-size: 11px;
+		color: @_uvaorange;
+		position: relative;
+		left: 2px;
+	}
+
+	h1, h2, h3 {
+		line-height: 1.2em;
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+
+	&.three-column {
+		h2 {
+			font-size: 20px;
+		}
+
+		img {
+			float: left;
+			padding: 0 10px 5px 0;
+		}
+	}
+	&.four-column {
+		h3 {
+			a {
+				color: @_darkblue;
+			}
+		}
+		img {
+			float: left;
+			padding: 0 10px 5px 0;
+		}
+	}
+
+	&.five-column {
+/*		.box {
+			border-radius: 5px;
+
+			display: block;
+			background: @grayLighter;
+
+			aside {
+				.small;
+				.text-right;
+				display: block;
+				color: @grayDarker;
+			}
+		}
+*/
+		.box {
+			display: block;
+
+			aside {
+				.small;
+				.text-right;
+				display: block;
+				color: @grayDarker;
+			}
+		}
+
+		.flex-image {
+			border: 1px solid @black;
+			//border: 1px solid @grayLight;
+		}
+
+		p {
+			img {
+				float: left;
+				padding: 0;
+				margin: 0 10px 5px 0;
+				border: 1px solid @grayDark;
+			}
+		}
+	}
+}
+
+h4 {
+	.label {
+		position: relative;
+		top: -2px;
+	}
+}
+
+.article {
+	h3 {
+		color: @black;
+	}
+
+	.byline {
+		margin: 10px 0;
+		padding: 5px;
+		font-size: 12px;
+		background: @grayLighter;
+		.arial-stack;
+	}
+
+	p {
+		.copy;
+		font-size: 14px;
+		line-height: 1.5em;
+		max-width: 600px;
+	}
+
+	.well {
+		font-size: 14px;
+	}
+
+	.media {
+		.pull-right;
+		max-width: 200px;
+		margin-left: 30px;
+		img {
+			max-width: 100%;
+			border: 1px solid @black;
+		}
+
+		.byline {
+			margin: 0 0 5px 0;
+		}
+		.caption p {
+			.arial-stack;
+			font-size: 12px;
+			color: @gray;
+		}
+
+		.offset {
+			position: relative;
+			padding-left: 20px;
+			display: block;
+		}
+		h5 {
+			.offset;
+			color: @black;
+			i {
+				color: @_uvaorange;
+				font-size: 1.5em;
+				position: absolute;
+				top: 0;
+				left: 0;
+
+			}
+		}
+	}
+}
+
+.gallery-container {
+	.gallery-list {
+		li {
+			display: inline-block;
+			height: 150px;
+
+			img {
+				max-width: 140px;
+				max-height: 140px;
+				border: 1px solid #666;
+			}
+		}
+	}
+	.pager {
+		a {
+			padding: 2px 5px;
+			border-width: 3px;
+			position: relative;
+			top: 150px;
+			font-size: 18px;
+			color: @_uvaorange;
+
+			i {
+				position: relative;
+				top: 1px;
+				left: 1px;
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+#calendar-map {
+	width: 100%;
+	height: 300px;
+
+	.box-shadow(0px 0px 4px @gray);
+}
+
+.calendar-header {
+
+	.prev {
+		padding-right: 20px;
+		font-size: 0.8em;
+	}
+	.next {
+		padding-left: 20px;
+		font-size: 0.8em;
+	}
+}
+
+.calendar-list {
+	h2 {
+		span.small {
+			font-weight: normal;
+		}
+	}
+}
+
+table#calendar {
+	margin: auto;
+
+	.box-shadow(0px 0px 4px @grayLight);
+
+	th, td {
+		padding: 4px 6px;
+	}
+	th {
+		background: @grayLighter;
+	}
+	td {
+		color: @grayLight;
+	}
+	.currentweek {
+		background: @btnBackgroundHighlight;
+	}
+	.active {
+		background: @btnPrimaryBackgroundHighlight;
+		color: #fff;
+		a {
+			color: #fff;
+		}
+	}
+}
